@@ -1,0 +1,604 @@
+/* Globale verdier */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Courier, monospace;
+}
+
+body {
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hoved-container {
+  margin: 5rem auto;
+  position: relative;
+  height: 70vh;
+  width: 1200px;
+  min-width: 800px;
+  min-height: 600px;
+  transform: scale(0.8);
+}
+
+.tekst-container {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  width: 35rem;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Pil-nav */
+.pil-nav {
+  position: absolute;
+  top: 300px;
+  right: -10rem;
+}
+
+#pil-høyre {
+  width: 60px;
+  animation: fadeIn 5s ease-in 10s 1 both,
+    pil-høyre 1s ease-in-out 10s infinite both;
+  opacity: 0.8;
+}
+
+@keyframes pil-høyre {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Tekst-animasjon */
+
+.skriver {
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  right: 0;
+  text-align: left;
+  color: white;
+  width: auto;
+}
+
+.skriver-tekst-header {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: skrivemaskin-1 3s steps(35, end), blink 0.75s step-end infinite;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-right: 4px solid #f5f5f5;
+  box-sizing: border-box;
+  color: white;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+@keyframes skrivemaskin-1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f5f5f5;
+  }
+}
+
+/******** Fokus inn animasjon ********/
+
+.tekst-fokus-inn {
+  font-size: 20px;
+  color: white;
+  animation: tekst-fokus-inn 3s 3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes tekst-fokus-inn {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* Navbar */
+
+nav {
+  position: absolute;
+  top: 200px;
+  left: -100px;
+  animation: fadeIn 5s ease-in 10s 1 both;
+  opacity: 0.8;
+}
+
+.sirkel-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel:hover ~ .sirkel-container {
+  opacity: 1;
+}
+
+.sirkel-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 75px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel2-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel2 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel2:hover ~ .sirkel2-container {
+  opacity: 1;
+}
+
+.sirkel2-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel3-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel3 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel3:hover ~ .sirkel3-container {
+  opacity: 1;
+}
+
+.sirkel3-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel4-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel4 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel4:hover ~ .sirkel4-container {
+  opacity: 1;
+}
+
+.sirkel4-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel5-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel5 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel5:hover ~ .sirkel5-container {
+  opacity: 1;
+}
+
+.sirkel5-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel6-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel6 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel6:hover ~ .sirkel6-container {
+  opacity: 1;
+}
+
+.sirkel6-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+.sirkel7-container {
+  opacity: 1;
+  top: -25px;
+  left: 35px;
+  height: 20px;
+  width: 100%;
+  position: relative;
+  opacity: 0;
+}
+
+#sirkel7 {
+  height: 25px;
+  width: 25px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+}
+
+#sirkel7:hover ~ .sirkel7-container {
+  opacity: 1;
+}
+
+.sirkel7-bio {
+  background-color: #f5f5f5;
+  color: #0f2027;
+  height: 20px;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Forside  */
+
+.container-forside {
+  margin: 0 auto;
+  width: 70vw;
+  height: 70vh;
+  position: relative;
+  transform: scale(0.8);
+}
+
+.tekst-container-forside {
+  position: absolute;
+  width: 50rem;
+  height: 10rem;
+  top: 550px;
+  left: 50%;
+  margin-left: -25rem;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+
+#ladestasjon {
+  position: absolute;
+  width: 200px;
+  top: 360px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+#tobor-start {
+  position: absolute;
+  width: 100px;
+  top: 20%;
+  left: 50%;
+  margin-left: -50px;
+  animation: sveve 2s infinite;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.2rem;
+  animation: moveInBottom 0.5s ease-out 0.8s;
+  animation-fill-mode: backwards;
+  background-color: aliceblue;
+  color: black;
+  margin-top: 3rem;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+}
+
+@keyframes sveve {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Slutt-side */
+#hologram {
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 30%;
+}
+
+.tobor {
+  width: 100px;
+  position: absolute;
+  top: -240px;
+  left: 50%;
+  margin-left: -50px;
+  animation: 2s infinite;
+  animation: natta 4s ease-in-out 1 both;
+  z-index: 1;
+}
+
+.tobor #tobor-slutt {
+  z-index: 1;
+}
+
+.tobor #flamme {
+  position: absolute;
+  top: 180px;
+  left: 37px;
+  width: 25px;
+  z-index: -1;
+  animation: natta-flamme 0.1s 1.5s linear 15 forwards;
+}
+
+.polaroids {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#polaroid_taxila {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  transform: rotate(-15deg);
+  animation: fadeIn 5s ease-in 5s 1 both;
+  z-index: 1;
+}
+
+#polaroid_taxila:hover {
+  z-index: 11;
+}
+
+#polaroid_sarbonne {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  transform: rotate(-15deg);
+  animation: fadeIn 5s ease-in 6s 1 both;
+  z-index: 1;
+}
+
+#polaroid_sarbonne:hover {
+  z-index: 11;
+}
+
+#polaroid_bme {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+  transform: rotate(15deg);
+  animation: fadeIn 5s ease-in 7s 1 both;
+  z-index: 1;
+}
+
+#polaroid_bme:hover {
+  z-index: 11;
+}
+
+#polaroid_uio {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  transform: rotate(15deg);
+  animation: fadeIn 5s ease-in 8s 1 both;
+  z-index: 1;
+}
+
+#polaroid_uio:hover {
+  z-index: 11;
+}
+
+#polaroid_pangea {
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  animation: fadeIn 5s ease-in 9s 1 both, zoom 5s ease-in 10s 1 both;
+  z-index: 10;
+}
+
+#polaroid_pangea:hover {
+  z-index: 11;
+}
+
+@keyframes natta {
+  0% {
+    top: -240px;
+  }
+
+  100% {
+    top: 230px;
+  }
+}
+
+@keyframes natta-flamme {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}

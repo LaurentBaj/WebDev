@@ -1,0 +1,200 @@
+.scale {
+  transform: scale(0.65);
+}
+
+#sirkel6 {
+  background-color: #0f2027;
+}
+
+/*Dette er øya-container som elementer er plassert på. I koden kan du justere om du vil at øya skal sveve litt høyere opp ved å endre på 65% i keyframes. */
+.island-container {
+  margin: 10rem 2rem 5rem 0rem;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.verden {
+  width: 700px;
+  position: absolute;
+  top: -40px;
+  left: -37px;
+}
+
+/*Raketten svever på en platform som det er mulighet til å justere på under rakett_animation*/
+.rakett {
+  width: 50px;
+  top: 30px;
+  right: 222px;
+  position: absolute;
+  z-index: 1;
+  animation-name: rakett-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rakett-animation {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+/*Platformen under raketten svever for å kunne gi en illusjon*/
+.rakett_platform {
+  width: 150px;
+  top: 82px;
+  right: 176px;
+  position: absolute;
+  z-index: 0;
+  animation-name: platform-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes platform-animation {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 5px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.dome {
+  width: 120px;
+  top: 286px;
+  left: 250px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.planet {
+  width: 450px;
+  top: -249px;
+  right: 260px;
+  position: absolute;
+}
+
+/*Disse stjernene ligger rundt planetene og blinker.*/
+.stjerner {
+  width: 200px;
+  top: -160px;
+  right: 530px;
+  position: absolute;
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  90% {
+    opacity: 0.1;
+  }
+}
+
+.stjerner1 {
+  width: 200px;
+  top: -160px;
+  right: 250px;
+  position: absolute;
+  animation: stjerner 4s linear infinite;
+}
+
+@keyframes stjerner {
+  90% {
+    opacity: 0.1;
+  }
+}
+/*Her er en animasjon av stjernskudd som faller ned. Gjør øya mer levende*/
+.stjerneskudd {
+  width: 250px;
+  top: -28px;
+  right: 445px;
+  position: absolute;
+  animation: stjerneskudd 2.5s linear infinite;
+}
+
+@keyframes stjerneskudd {
+  0% {
+    top: -210px;
+    right: 306px;
+  }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.universitet {
+  width: 150px;
+  top: -117px;
+  left: 240px;
+  position: absolute;
+  z-index: 1;
+}
+
+.by {
+  width: 220px;
+  top: 100px;
+  left: 59px;
+  position: absolute;
+  z-index: 2;
+}
+
+.stein {
+  width: 250px;
+  top: -23px;
+  left: 1px;
+  position: absolute;
+  z-index: 0;
+}
+
+/*Her er en animasjon av bilen som flyr ut*/
+.bil {
+  width: 100px;
+  top: 560px;
+  left: -391px;
+  position: absolute;
+  animation: fly-animation 3s infinite ease-in;
+}
+
+@keyframes fly-animation {
+  0% {
+    top: 288px;
+    left: 229px;
+  }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

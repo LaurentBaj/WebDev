@@ -1,0 +1,630 @@
+.scale {
+  transform: scale(0.6);
+}
+
+.island-container {
+  margin: 0;
+  position: absolute;
+  top: -93px;
+  left: -260px;
+}
+
+#sirkel3 {
+  background-color: #0f2027;
+}
+
+#island {
+  position: relative;
+  top: 200px;
+  left: 100px;
+  width: 1000px;
+  height: 800px;
+  z-index: 0;
+}
+
+/******** Bygninger ********/
+
+#castle {
+  top: -50px;
+  left: 400px;
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+}
+
+#stable {
+  top: 330px;
+  left: 320px;
+  width: 150px;
+  position: absolute;
+  z-index: 1;
+}
+
+/******** Objekter ********/
+
+#hay1 {
+  top: 440px;
+  left: 360px;
+  width: 45px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 3;
+}
+
+#hay2 {
+  top: 432px;
+  left: 330px;
+  width: 45px;
+  position: absolute;
+  z-index: 2;
+}
+
+#hay3 {
+  top: 423px;
+  left: 360px;
+  width: 45px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 3;
+}
+
+#bridge {
+  top: 504px;
+  left: 500px;
+  width: 150px;
+  position: absolute;
+  z-index: 3;
+}
+
+#well {
+  top: 440px;
+  left: 475px;
+  width: 45px;
+  position: absolute;
+  z-index: 2;
+}
+
+/******** Dyr ********/
+
+#duck3 {
+  top: 510px;
+  left: 825px;
+  width: 20px;
+  transform: scaleX(-1);
+  position: absolute;
+  z-index: 1;
+}
+
+#duck4 {
+  top: 490px;
+  left: 845px;
+  width: 20px;
+  position: absolute;
+  transform: rotate(-20deg);
+  z-index: 1;
+}
+
+#horse {
+  top: 470px;
+  left: 330px;
+  width: 40px;
+  position: absolute;
+  z-index: 4;
+}
+
+/******** Sky animasjoner ********/
+
+#cloud1 {
+  left: 100px;
+  width: 400px;
+  height: 170px;
+  position: absolute;
+  z-index: 0;
+  animation: cloud1 linear 30s infinite alternate;
+}
+
+@keyframes cloud1 {
+  0% {
+    top: 0px;
+    left: 300px;
+    transform: scale(1);
+  }
+  50% {
+    top: 30px;
+    transform: scale(1.3);
+  }
+  100% {
+    top: 0px;
+    left: 600px;
+    transform: scale(1);
+  }
+}
+
+#cloud2 {
+  left: 100px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  z-index: 0;
+  animation: cloud2 linear 40s infinite alternate;
+}
+
+@keyframes cloud2 {
+  0% {
+    top: 50px;
+    left: 100px;
+    transform: scale(1);
+    transform: scaleX(-1);
+  }
+  50% {
+    top: 80px;
+    transform: scale(0.5);
+    transform: scaleX(-1);
+  }
+  100% {
+    top: 50px;
+    left: 700px;
+    transform: scale(1);
+    transform: scaleX(-1);
+  }
+}
+
+/******** Båt animasjon ********/
+
+#boat {
+  width: 85px;
+  left: 680px;
+  position: absolute;
+  animation: boat ease 3s infinite;
+  z-index: 1;
+}
+
+@keyframes boat {
+  0% {
+    top: 475px;
+    transform: rotate(2deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    top: 480px;
+    transform: rotate(2deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    top: 475px;
+    transform: rotate(2deg);
+  }
+}
+
+/******** Vann animasjon ********/
+
+#water {
+  left: 490px;
+  width: 450px;
+  position: absolute;
+  z-index: 0;
+  animation: water ease-in-out 3s infinite;
+}
+
+@keyframes water {
+  0% {
+    top: 376px;
+  }
+  50% {
+    top: 381px;
+  }
+  100% {
+    top: 376px;
+  }
+}
+
+/******** And animasjon ********/
+
+#duck1 {
+  left: 800px;
+  width: 20px;
+  position: absolute;
+  z-index: 1;
+  animation: duck1 ease 3s infinite;
+}
+
+@keyframes duck1 {
+  0% {
+    top: 480px;
+    transform: rotate(2deg);
+    transform: scaleX(-1);
+  }
+  50% {
+    top: 475px;
+    transform: rotate(-2deg);
+    transform: scaleX(-1);
+  }
+  100% {
+    top: 480px;
+    transform: rotate(2deg);
+    transform: scaleX(-1);
+  }
+}
+
+#duck2 {
+  left: 780px;
+  width: 20px;
+  position: absolute;
+  z-index: 1;
+  animation: duck2 ease 3s infinite;
+}
+
+@keyframes duck2 {
+  0% {
+    top: 455px;
+    transform: rotate(2deg);
+  }
+  50% {
+    top: 450px;
+    transform: rotate(-2deg);
+  }
+  100% {
+    top: 455px;
+    transform: rotate(2deg);
+  }
+}
+
+/******** Flagg animasjon ********/
+
+#flagpole {
+  top: -95px;
+  left: 651px;
+  width: 5px;
+  position: absolute;
+  z-index: -1;
+}
+
+#flag {
+  top: -100px;
+  left: 653px;
+  width: 100px;
+  position: absolute;
+  z-index: -2;
+  animation: flag linear 1s infinite alternate;
+}
+
+@keyframes flag {
+  0% {
+    transform: skewX(-8deg);
+  }
+  50% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-8deg);
+  }
+}
+
+/******** Kanonball hover animasjon ********/
+
+#cannon {
+  top: 120px;
+  left: 470px;
+  width: 50px;
+  position: absolute;
+  z-index: 3;
+  transform: scaleX(-1);
+}
+
+#cannonball {
+  top: 93px;
+  left: 420px;
+  width: 8px;
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+  background-clip: padding-box;
+  padding: 50px;
+}
+
+#cannonball:hover {
+  animation: ball ease-out 7s;
+  cursor: crosshair;
+}
+
+@keyframes ball {
+  0% {
+    opacity: 1;
+    top: 93px;
+    left: 420px;
+  }
+  20% {
+    opacity: 1;
+    top: 450px;
+    left: -20px;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/******** Stier/veier ********/
+
+#path1 {
+  top: 515px;
+  left: 435px;
+  width: 100px;
+  position: absolute;
+}
+
+#path2 {
+  top: 430px;
+  left: 405px;
+  width: 150px;
+  position: absolute;
+  z-index: 0;
+}
+
+#path3 {
+  top: 610px;
+  left: 600px;
+  width: 90px;
+  position: absolute;
+}
+
+/******** Steiner ********/
+
+#stone1 {
+  top: 440px;
+  left: 640px;
+  width: 50px;
+  position: absolute;
+}
+
+#stone2 {
+  top: 440px;
+  left: 620px;
+  width: 50px;
+  position: absolute;
+}
+
+#stone3 {
+  top: 450px;
+  left: 630px;
+  width: 50px;
+  position: absolute;
+}
+
+#stone4 {
+  top: 464px;
+  left: 278px;
+  width: 30px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 6;
+}
+
+#stone5 {
+  top: 455px;
+  left: 265px;
+  width: 40px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 5;
+}
+
+#stone6 {
+  top: 580px;
+  left: 680px;
+  width: 50px;
+  position: absolute;
+  z-index: 2;
+}
+
+#stone7 {
+  top: 575px;
+  left: 695px;
+  width: 40px;
+  position: absolute;
+  z-index: 01;
+}
+
+#stone8 {
+  top: 430px;
+  left: 940px;
+  width: 35px;
+  position: absolute;
+  z-index: 0;
+}
+
+#stone9 {
+  top: 435px;
+  left: 945px;
+  width: 35px;
+  position: absolute;
+  z-index: 0;
+}
+
+/******** Gress ********/
+
+#grass1 {
+  width: 12px;
+  top: 432px;
+  left: 610px;
+  position: absolute;
+  z-index: 1;
+}
+
+#grass2 {
+  width: 10px;
+  top: 433px;
+  left: 603px;
+  position: absolute;
+  z-index: 1;
+}
+
+#grass3 {
+  width: 12px;
+  top: 410px;
+  left: 695px;
+  position: absolute;
+  z-index: 2;
+}
+
+#grass4 {
+  width: 10px;
+  top: 400px;
+  left: 700px;
+  position: absolute;
+  z-index: 1;
+}
+
+#grass5 {
+  width: 12px;
+  top: 410px;
+  left: 712px;
+  position: absolute;
+  transform: rotate(20deg);
+  z-index: 2;
+}
+
+#grass6 {
+  width: 14px;
+  top: 427px;
+  left: 255px;
+  position: absolute;
+  transform: rotate(-11deg);
+  z-index: 3;
+}
+
+#grass7 {
+  width: 14px;
+  top: 427px;
+  left: 270px;
+  position: absolute;
+  z-index: 4;
+}
+
+#grass8 {
+  width: 10px;
+  top: 470px;
+  left: 450px;
+  position: absolute;
+  z-index: 2;
+}
+
+#grass9 {
+  width: 12px;
+  top: 470px;
+  left: 458px;
+  position: absolute;
+  z-index: 2;
+}
+
+#grass10 {
+  width: 12px;
+  top: 550px;
+  left: 680px;
+  position: absolute;
+  z-index: 0;
+}
+
+#grass11 {
+  width: 10px;
+  top: 555px;
+  left: 690px;
+  position: absolute;
+  z-index: 0;
+}
+
+#grass12 {
+  width: 10px;
+  top: 565px;
+  left: 726px;
+  position: absolute;
+  z-index: 2;
+}
+
+#grass13 {
+  width: 14px;
+  top: 408px;
+  left: 932px;
+  position: absolute;
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+
+#grass14 {
+  width: 14px;
+  top: 408px;
+  left: 948px;
+  position: absolute;
+  z-index: 2;
+}
+
+/******** Trær ********/
+
+#tree1 {
+  top: 320px;
+  left: 640px;
+  width: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+#tree2 {
+  top: 300px;
+  left: 230px;
+  width: 110px;
+  position: absolute;
+  transform: rotate(12deg);
+  z-index: 1;
+}
+
+#tree3 {
+  top: 340px;
+  left: 220px;
+  width: 120px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 2;
+}
+
+#tree4 {
+  top: 330px;
+  left: 195px;
+  width: 110px;
+  position: absolute;
+  transform: rotate(-18deg);
+  z-index: 1;
+}
+
+#tree5 {
+  top: 340px;
+  left: 640px;
+  width: 100px;
+  position: absolute;
+  transform: scaleX(-1);
+  transform: rotate(-20deg);
+  z-index: 1;
+}
+
+#tree6 {
+  top: 320px;
+  left: 889px;
+  width: 130px;
+  position: absolute;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+#tree7 {
+  top: 323px;
+  left: 870px;
+  width: 130px;
+  position: absolute;
+  transform: rotate(-10deg);
+  z-index: 1;
+}

@@ -1,0 +1,316 @@
+.scale {
+  transform: scale(0.5);
+}
+
+.island-container {
+  margin: 0;
+  position: absolute;
+  top: -146px;
+  left: -144px;
+}
+
+#sirkel4 {
+  background-color: #0f2027;
+}
+
+#verden {
+  position: relative;
+  width: 925px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#chem1 {
+  width: 220px;
+  position: absolute;
+  left: 560px;
+  top: 20px;
+  z-index: 8;
+}
+
+#hus1 {
+  width: 120px;
+  position: absolute;
+  top: 430px;
+  left: 470px;
+  z-index: 13;
+}
+
+#hus2 {
+  width: 160px;
+  position: absolute;
+  top: 470px;
+  left: 380px;
+  z-index: 14;
+}
+
+#hus2-2 {
+  position: absolute;
+  width: 110px;
+  top: 450px;
+  left: 530px;
+  z-index: 12;
+}
+
+#hus2-3 {
+  position: absolute;
+  width: 150px;
+  top: 390px;
+  left: 570px;
+  z-index: 11;
+}
+
+#hus2-4 {
+  position: absolute;
+  width: 180px;
+  top: 310px;
+  left: 630px;
+  z-index: 10;
+}
+
+#hus3 {
+  position: absolute;
+  width: 320px;
+  top: -50px;
+  left: 350px;
+  z-index: 2;
+}
+
+#hus-m-hjul {
+  position: absolute;
+  width: 271px;
+  top: 293px;
+  left: 149px;
+  z-index: 9;
+}
+
+#rør2 {
+  position: absolute;
+  width: 180px;
+  top: 350px;
+  left: 670px;
+  z-index: 2;
+}
+
+#rør3 {
+  position: absolute;
+  width: 300px;
+  top: 500px;
+  left: 300px;
+  z-index: 1;
+}
+
+#universitet {
+  position: absolute;
+  width: 750px;
+  top: -445px;
+  left: -290px;
+  z-index: 3;
+}
+
+#olje {
+  position: absolute;
+  width: 35px;
+  top: 740px;
+  left: 510px;
+  z-index: 0;
+  background-clip: content-box;
+  padding: 50px;
+}
+
+#olje:hover {
+  transform: scaleY(10) translate(-0px, 1000px);
+  transition: 1s ease-in 0s;
+}
+
+#røyk1 {
+  position: absolute;
+  width: 20px;
+  top: 20px;
+  left: 308px;
+  z-index: 1;
+  animation: røyk1Animation 4s linear infinite;
+}
+
+@keyframes røyk1Animation {
+  0% {
+    top: -40px;
+    left: 290px;
+    width: 20px;
+    opacity: 0.4;
+  }
+  100% {
+    top: -300px;
+    left: 290px;
+    width: 70px;
+    opacity: 1;
+  }
+}
+
+#røyk2 {
+  position: absolute;
+  width: 20px;
+  top: 10px;
+  left: 252px;
+  z-index: 1;
+  animation: røyk2Animation 3s linear infinite 1.8s;
+}
+
+@keyframes røyk2Animation {
+  0% {
+    top: -20px;
+    left: 228px;
+    width: 20px;
+    opacity: 1;
+  }
+  100% {
+    top: -300px;
+    left: 200px;
+    width: 90px;
+    opacity: 1;
+  }
+}
+
+#røyk3 {
+  position: absolute;
+  width: 10px;
+  top: 10px;
+  left: 264px;
+  z-index: 0;
+  animation: røyk3Animation 10s linear infinite 0.8s;
+}
+
+@keyframes røyk3Animation {
+  0% {
+    top: -20px;
+    left: 240px;
+    width: 20px;
+    opacity: 0.2;
+  }
+  100% {
+    top: -300px;
+    left: 230px;
+    width: 90px;
+    opacity: 1;
+  }
+}
+
+#cog1 {
+  position: absolute;
+  width: 199px;
+  top: 550px;
+  z-index: -1;
+  transform: rotate(240deg);
+}
+
+#cog1-1 {
+  position: absolute;
+  width: 349px;
+  top: 690px;
+  left: 150px;
+  z-index: 3;
+  transform: rotate(240deg);
+}
+
+#cog2 {
+  position: absolute;
+  width: 70px;
+  top: 220px;
+  left: 40px;
+  z-index: 5;
+  transform: rotate(240deg);
+}
+
+#cog2-2 {
+  position: absolute;
+  width: 120px;
+  top: 350px;
+  left: 20px;
+  z-index: 5;
+  transform: rotate(240deg);
+}
+
+#cog3 {
+  position: absolute;
+  width: 800px;
+  left: 270px;
+  top: 0;
+  transform: rotate(240deg);
+  z-index: -1;
+}
+
+#zeppeliner {
+  position: absolute;
+  width: 900px;
+}
+
+#propell-1 {
+  position: absolute;
+  z-index: 21;
+  width: 300px;
+  top: 490px;
+  left: -120px;
+}
+
+#propell-2 {
+  position: absolute;
+  z-index: 19;
+  width: 400px;
+  top: -80px;
+  left: 580px;
+}
+
+#propell-3 {
+  position: absolute;
+  z-index: 20;
+  width: 110px;
+  top: 412px;
+  left: 547px;
+  transform: rotate(293deg);
+}
+
+#propell-4 {
+  position: absolute;
+  z-index: 19;
+  width: 120px;
+  top: 250px;
+  left: 187px;
+  transform: rotate(293deg);
+}
+
+#luftballong {
+  top: -2000px;
+  left: 2000px;
+  position: absolute;
+  transform: scale(0.5);
+  animation: lAnimation 10s linear 0s;
+  z-index: 99;
+}
+
+@keyframes lAnimation {
+  0% {
+    top: -600px;
+    left: 1400px;
+  }
+  20% {
+    top: -600px;
+    left: 1000px;
+  }
+  40% {
+    top: -400px;
+    left: 800px;
+  }
+  60% {
+    top: -100px;
+    left: 300px;
+  }
+  80% {
+    top: 0px;
+    left: -200px;
+  }
+  100% {
+    top: 600px;
+    left: -1400px;
+  }
+}

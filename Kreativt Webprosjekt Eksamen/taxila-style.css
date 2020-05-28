@@ -1,0 +1,672 @@
+.scale {
+  transform: scale(0.4);
+}
+
+.island-container {
+  margin: 0;
+  position: absolute;
+  top: -140px;
+  left: -280px;
+}
+
+#sirkel2 {
+  background-color: #0f2027;
+}
+/* Animasjon, posisjonering på øya. */
+
+#verden {
+  position: relative;
+  width: 1200px;
+  top: -38px;
+  left: -77px;
+}
+
+#sky_1 {
+  position: absolute;
+  top: -200px;
+  left: 198px;
+  height: 150px;
+  animation: sky_1 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#sky_2 {
+  position: absolute;
+  top: -200px;
+  left: 45px;
+  height: 158px;
+  animation: sky_2 12s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#bygning {
+  position: absolute;
+  top: -50px;
+  left: 400px;
+  height: 421px;
+}
+
+#palme_1 {
+  position: absolute;
+  top: 31px;
+  left: 830px;
+  height: 219px;
+  animation: palme 4s;
+  animation-iteration-count: infinite;
+}
+
+#palme_2 {
+  position: absolute;
+  top: 164px;
+  left: 858px;
+  height: 113px;
+  animation: palme 4s;
+  animation-iteration-count: infinite;
+}
+
+#palme_3 {
+  position: absolute;
+  top: 138px;
+  left: 318px;
+  height: 80px;
+  animation: palme 4s;
+  animation-iteration-count: infinite;
+}
+
+#palme_4 {
+  position: absolute;
+  top: -17px;
+  left: 334px;
+  height: 208px;
+  animation: palme 4s;
+  animation-iteration-count: infinite;
+}
+
+#flekk_1 {
+  position: absolute;
+  top: 271px;
+  left: 222px;
+  height: 240px;
+}
+
+#flekk_2 {
+  position: absolute;
+  top: 328px;
+  left: 912px;
+  height: 67px;
+}
+
+#brønn {
+  position: absolute;
+  top: 271px;
+  left: 950px;
+  height: 115px;
+}
+
+#stein {
+  position: absolute;
+  top: 370px;
+  left: 594px;
+  height: 50px;
+}
+
+#tromme {
+  position: absolute;
+  top: 253px;
+  left: 262px;
+  height: 61px;
+}
+
+#eplekasse {
+  position: absolute;
+  top: 75px;
+  left: 455px;
+  height: 49px;
+}
+
+#urtehage {
+  position: absolute;
+  top: 474px;
+  left: 443px;
+  height: 140px;
+}
+
+#note_1 {
+  position: absolute;
+  top: 190px;
+  left: 452px;
+  height: 28px;
+  animation: note_1 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#note_2 {
+  position: absolute;
+  top: 210px;
+  left: 455px;
+  height: 28px;
+  animation: note_2 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#note_3 {
+  position: absolute;
+  top: 221px;
+  left: 451px;
+  height: 28px;
+  animation: note_3 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#kasse_1 {
+  position: absolute;
+  top: 425px;
+  left: 800px;
+  height: 55px;
+}
+
+#kasse_2 {
+  position: absolute;
+  top: 429px;
+  left: 747px;
+  height: 55px;
+}
+
+#kasse_3 {
+  position: absolute;
+  top: 418px;
+  left: 773px;
+  height: 55px;
+}
+
+#pil_kasse_1 {
+  position: absolute;
+  top: 424px;
+  left: 774px;
+  height: 28px;
+}
+
+#pil_kasse_2 {
+  position: absolute;
+  top: 417px;
+  left: 787px;
+  height: 28px;
+}
+
+#pil_kasse_3 {
+  position: absolute;
+  top: 420px;
+  left: 781px;
+  height: 28px;
+}
+
+#benk_1 {
+  position: absolute;
+  top: 354px;
+  left: 303px;
+  height: 76px;
+}
+
+#benk_2 {
+  position: absolute;
+  top: 381px;
+  left: 349px;
+  height: 76px;
+}
+
+#benk_3 {
+  position: absolute;
+  top: 286px;
+  left: 336px;
+  height: 76px;
+}
+
+#benk_4 {
+  position: absolute;
+  top: 269px;
+  left: 388px;
+  height: 76px;
+}
+
+#gress_1 {
+  position: absolute;
+  top: 322px;
+  left: 963px;
+  height: 73px;
+  animation: gress 4s;
+  animation-iteration-count: infinite;
+}
+
+#gress_2 {
+  position: absolute;
+  top: 354px;
+  left: 563px;
+  height: 73px;
+  animation: gress 4s;
+  animation-iteration-count: infinite;
+}
+
+#tavle {
+  position: absolute;
+  top: 143px;
+  left: 129px;
+  height: 203px;
+}
+
+#papyrus_1 {
+  position: absolute;
+  top: 314px;
+  left: 389px;
+  height: 34px;
+}
+
+#papyrus_2 {
+  position: absolute;
+  top: 268px;
+  left: 391px;
+  height: 32px;
+}
+
+#gress_3 {
+  position: absolute;
+  top: 291px;
+  left: 147px;
+  height: 68px;
+  animation: gress 4s;
+  animation-iteration-count: infinite;
+}
+
+#gress_4 {
+  position: absolute;
+  top: 272px;
+  left: 100px;
+  height: 79px;
+  animation: gress 4s;
+  animation-iteration-count: infinite;
+}
+
+#sti_1 {
+  position: absolute;
+  top: 387px;
+  left: 172px;
+  height: 60px;
+}
+
+#sti_2 {
+  position: absolute;
+  top: 438px;
+  left: 281px;
+  height: 60px;
+}
+
+#sti_3 {
+  position: absolute;
+  top: 316px;
+  left: 173px;
+  height: 60px;
+}
+
+#bål_ved {
+  position: absolute;
+  top: 122px;
+  left: 687px;
+  height: 32px;
+}
+
+#flamme_ytterst {
+  position: absolute;
+  top: 94px;
+  left: 690px;
+  height: 54px;
+  animation: flammer_y 1s;
+  animation-iteration-count: infinite;
+}
+
+#flamme_innerst {
+  position: absolute;
+  top: 110px;
+  left: 694px;
+  height: 37px;
+  animation: flammer_i 1s;
+  animation-iteration-count: infinite;
+}
+
+#røyk_1 {
+  position: absolute;
+  top: 76px;
+  left: 679px;
+  height: 20px;
+  animation: røyk_1 2s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+#røyk_2 {
+  position: absolute;
+  top: 56px;
+  left: 694px;
+  height: 25px;
+  animation: røyk_2 2s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+}
+
+#røyk_3 {
+  position: absolute;
+  top: 59px;
+  left: 676px;
+  height: 20px;
+  animation: røyk_3 2s;
+  animation-delay: 0.6s;
+  animation-iteration-count: infinite;
+}
+
+#røyk_4 {
+  position: absolute;
+  top: 40px;
+  left: 685px;
+  height: 25px;
+  animation: røyk_4 2s;
+  animation-delay: 0.8s;
+  animation-iteration-count: infinite;
+}
+
+#blink {
+  position: absolute;
+  top: 254px;
+  left: 720px;
+  height: 95px;
+}
+
+#pil_1 {
+  position: absolute;
+  top: 344px;
+  left: 841px;
+  height: 30px;
+  animation: pil_1 3s;
+  animation-iteration-count: infinite;
+}
+
+#pil_2 {
+  position: absolute;
+  top: 321px;
+  left: 841px;
+  height: 30px;
+  height: 30px;
+  animation: pil_2 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+}
+
+#solur {
+  position: absolute;
+  top: -20px;
+  left: 550px;
+  height: 68px;
+}
+
+#solur_skygge {
+  position: absolute;
+  top: -4px;
+  left: 562px;
+  height: 13px;
+  transform-origin: right bottom;
+  animation: solur 40s;
+  animation-iteration-count: infinite;
+}
+
+#solur_pil {
+  position: absolute;
+  top: -39px;
+  left: 600px;
+  height: 51px;
+}
+
+/* animasjoner */
+
+@keyframes sky_1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: -200px;
+    left: 486px;
+  }
+  100% {
+    opacity: 0;
+    top: -200px;
+    left: 952px;
+  }
+}
+
+@keyframes sky_2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: -200px;
+    left: 455px;
+  }
+  100% {
+    opacity: 0;
+    top: -200px;
+    left: 950px;
+  }
+}
+
+@keyframes gress {
+  0% {
+    transform: skewY(0);
+  }
+  50% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(0);
+  }
+}
+
+@keyframes palme {
+  0% {
+    transform: skewY(0);
+  }
+  50% {
+    transform: skewY(8deg);
+  }
+  100% {
+    transform: skewY(0);
+  }
+}
+
+@keyframes note_1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: 172px;
+    left: 428px;
+  }
+  100% {
+    opacity: 0;
+    top: 131px;
+    left: 399px;
+  }
+}
+
+@keyframes note_2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: 172px;
+    left: 449px;
+  }
+  100% {
+    opacity: 0;
+    top: 137px;
+    left: 440px;
+  }
+}
+
+@keyframes note_3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    top: 186px;
+    left: 470px;
+  }
+  100% {
+    opacity: 0;
+    top: 158px;
+    left: 495px;
+  }
+}
+
+@keyframes flammer_y {
+  0% {
+    transform: skewY(0);
+  }
+  50% {
+    transform: skewY(10deg);
+  }
+  100% {
+    transform: skewY(0);
+  }
+}
+
+@keyframes flammer_i {
+  0% {
+    transform: skewY(0);
+  }
+  50% {
+    transform: skewY(-10deg);
+  }
+  100% {
+    transform: skewY(0);
+  }
+}
+
+@keyframes røyk_1 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.6;
+    top: 56px;
+    left: 679px;
+    height: 25px;
+  }
+  100% {
+    opacity: 0.1;
+    top: 36px;
+    left: 679px;
+    height: 20px;
+  }
+}
+
+@keyframes røyk_2 {
+  0% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.6;
+    top: 35px;
+    left: 694px;
+    height: 30px;
+  }
+  100% {
+    opacity: 0.1;
+    top: 16px;
+    left: 694px;
+    height: 25px;
+  }
+}
+
+@keyframes røyk_3 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.6;
+    top: 35px;
+    left: 676px;
+    height: 25px;
+  }
+  100% {
+    opacity: 0.1;
+    top: 40px;
+    left: 676px;
+    height: 20px;
+  }
+}
+
+@keyframes røyk_4 {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.6;
+    top: 42px;
+    left: 685px;
+    height: 30px;
+  }
+  100% {
+    opacity: 0.1;
+    top: 0px;
+    left: 685px;
+    height: 25px;
+  }
+}
+
+@keyframes pil_1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    top: 292px;
+    left: 754px;
+  }
+  100% {
+    opacity: 1;
+    top: 292px;
+    left: 754px;
+  }
+}
+
+@keyframes pil_2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    top: 279px;
+    left: 758px;
+  }
+  100% {
+    opacity: 1;
+    top: 279px;
+    left: 758px;
+  }
+}
+
+@keyframes solur {
+  0% {
+    transform: rotate(-359deg);
+  }
+}

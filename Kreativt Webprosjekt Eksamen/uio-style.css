@@ -1,0 +1,191 @@
+.scale {
+    transform: scale(1.1);
+}
+
+.island-container {
+    position: absolute;
+    top: 11rem;
+    left: 4rem;
+  }
+
+#sirkel6 {
+    background-color: #0f2027;
+}
+  
+#verden {
+    width: 500px;
+    z-index: 10;
+}
+
+#buss {
+    width: 90px;
+    position: absolute;
+    top: 98px;
+    left: 21px;
+    animation: kjør-stop 15s 3s infinite ease-in;
+    opacity: 0;
+}
+
+#bil {
+    width: 45px;
+    position: absolute;
+    top: 127px;
+    left: 25px;
+    opacity: 0;
+    animation: kjør 10s 10s infinite;
+}
+
+#lastebil {
+    width: 45px;
+    position: absolute;
+    top: 127px;
+    left: 25px;
+    opacity: 0;
+    animation: kjør 10s 15s infinite;
+}
+
+#sol {
+    width: 100px;
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    opacity: 1;
+    z-index: -1;
+    animation: morgen 10s ease-in-out, sveve 2s 10s infinite;
+}
+
+#sky-1 {
+    width: 50px;
+    position: absolute;
+    top: -143px;
+    left: 192px;
+    animation: morgensky-1 10s, sveve 2s 10s infinite;
+}
+
+#sky-2 {
+    width: 80px;
+    position: absolute;
+    top: -149px;
+    left: 234px;
+    animation: morgensky-2 10s, sveve 2s 10s infinite;
+}
+
+#fly {
+    width: 100px;
+    position: absolute;
+    top: -200px;
+    left: 700px;
+    opacity: 0;
+    animation: fly 20s 5s infinite linear;
+}
+
+
+
+@keyframes kjør-stop {
+    0% {
+        opacity: 0;
+        top: 98px;
+        left: 21px;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    10%, 20% {
+        top: 167px;
+        left: 139px;
+    }
+
+    40% {
+        opacity: 1;
+    }
+    50% {
+        top: 235px;
+        left: 258px;
+        opacity: 0;
+    }
+}
+
+@keyframes kjør {
+    0% {
+        opacity: 0;
+        top: 130px;
+        left: 52px;
+    }
+
+    25% {
+        opacity: 1;
+    }
+    50% {
+        top: 263px;
+        left: 255px;
+        opacity: 0;
+    }
+}
+
+@keyframes morgen {
+    0% {
+        top: 40px;
+        left: 200px;
+    }
+
+    20% {
+        top: -200px;
+        left: 200px;
+        opacity: 1;
+    }
+
+    100% {
+        top: -200px;
+        left: 200px;
+        opacity: 1;
+    }
+}
+
+@keyframes morgensky-1 {
+   0%{
+       opacity: 0;
+       top: -130px;
+       left: 110px;
+   }
+}
+
+@keyframes morgensky-2 {
+    0%{
+        opacity: 0;
+        top: -149px;
+        left: 312px;
+    }
+ }
+
+
+ @keyframes sveve {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fly {
+      0% {
+        top: -200px;
+        left: 700px;
+      }
+
+      12% {
+          opacity: 1;
+      }
+      25% {
+        top: 300px;
+        left: -200px;
+        opacity: 0;
+      }
+  }
+  
