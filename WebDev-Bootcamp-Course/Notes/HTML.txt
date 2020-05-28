@@ -1,0 +1,14 @@
+New stuff I learned about HTML
+
+Tables
+	-Do not need borders and are as default without them 
+	-To create rows: tr. To create columns inside td. To create header: th 
+	-Inside a Table-bracket the convention to make the code more neat use:
+		- thead, tbody and tfoote - brackets
+	
+	-Adjust space and create borders by setting cellspacing- and border value
+	-Tables without border are usefull indenting DOM-elements like shown in "MyWebSide"
+	
+Emojis 
+	-Click: Windos + . 
+
