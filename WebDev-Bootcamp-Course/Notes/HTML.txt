@@ -12,3 +12,24 @@ Tables
 Emojis 
 	-Click: Windos + . 
 
+Forms 
+	-Don't do anything themself but is a good convention to surround things like inputs and buttons in them
+	-Attributes
+		-name: Like the id-attribute, reads the value in the input
+		-action: Upon submitting a form (by clicking a button) the user is sent to a given website
+		-method: Specifies how to send form data upon clicking the submit
+			-method = "POST": Sends data to server.
+		-enctype: Specifies how the form-data is encrypted
+			-enctype = "text/plain": Spaces are converted to "+" symbols, but no special characters are encoded 
+
+Input Attributes
+	-Text: Normal text-box
+	-password: text is hidden
+	-checkbox: clickable checkbox 
+	-Submit: creates a button (default value = "Send")
+	-Label: same as <p> but used in forms
+	-Textarea: A larger are for inputing text. Size can be altered
+	-email: textbox where legit email is required
+	-color: A color button/pallete. Can choose a grading and provides the color value
+
+
