@@ -1,3 +1,38 @@
 body {
-    background-color: red;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#main {
+    position: relative;
+    background-color: aliceblue;
+    height: 720px;
+    width: 720px;
+}
+
+.top-container {
+    background-color: #f3e1e1;
+    border: solid 10px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.middle-container {
+    border: solid 20px;
+    margin-left: 260px;
+    width: 200px;
+    height: 200px;
+    background-color: rebeccapurple;
+}
+
+.bottom-container {
+    margin-left: 500px;
+    border: 10px solid;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
 }
