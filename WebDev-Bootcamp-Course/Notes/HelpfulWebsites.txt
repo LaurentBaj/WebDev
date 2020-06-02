@@ -6,3 +6,14 @@ https://unicode-table.com/en/
 
 Favicon: create my own favicons 
 https://www.favicon.cc/
+
+CSS Font Stack: Checks to see what fonts are available on all PCs so that I don't work with a font that is exclusive to my laptop
+https://www.cssfontstack.com/
+
+Google Fonts: For font embedding. Free fonts and aesthetic tips. Don't have to worry about if users have the fonts.
+https://fonts.google.com/
+
+Flaticon: Has neat vector icons 
+https://www.flaticon.com/
+
+GIPHY: Has neat giffs and stickers
