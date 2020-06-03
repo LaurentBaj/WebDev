@@ -1,0 +1,30 @@
+/* New things I learned about CSS from Angela's course */
+
+
+Difference between Id and class 
+	-You can have many objects with the same class value and is very useful if you plan to alter all of them at once 
+	-ID are unique and you can only have one of them
+
+The Box model
+	-Elements on a webpage have padding, border and margins that sorrounds them. These are powerful properties and they affect other elements that border to it
+	-It is not neccesary to alter each side, in fact, sometimes you only need changing them (padding, margin, border) on specific sides 
+
+Width: %
+	-Instead of pixels. Handy because it applies to the size of the screen and is scalable
+	-Also useful when using <p> because if you write i paragraph in them then they'll appear on one line. But with the width property you can ajust it
+		-Instead of using <pre>
+
+Font-size
+	-Instead of pixels, use rem/em. On em = 16 pixels  
+
+Align-center
+	-Allows different objects to appear on the center
+
+Line-height
+	-The distance between the lines in text or any other element 
+
+Browser-defaults
+	-Sometimes an element may be treated with a fixed property even when they are not specified by the programmer
+	-To fix this you have to zero out that property
+
+"If you find yourself repeating code then you are doing it wrong" - Angela ❤

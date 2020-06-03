@@ -17,3 +17,7 @@ Flaticon: Has neat vector icons
 https://www.flaticon.com/
 
 GIPHY: Has neat giffs and stickers
+https://giphy.com/
+
+CSS Button Generator: Insted of hard coding a button, I can use this
+https://www.bestcssbuttongenerator.com/#/12

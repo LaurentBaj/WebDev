@@ -1,4 +1,5 @@
 body {
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;   
@@ -15,11 +16,11 @@ hr {
     border-top-style: dotted;
     width: 5%;
     height: 2px;
+    margin: 100px auto;
 }
 
 
 /*TOP-CONTAINER*/
-
 h1 {
     color: #66BFBF;
     font-size: 5.625rem;
@@ -32,12 +33,29 @@ h2 {
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #11999e;
+    color: #11999E;
 }
+
+p {
+    line-height: 2;
+}
+
+a {
+    color:#11999E; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
 
 .top-container {
     padding-top: 100px;
@@ -47,20 +65,19 @@ h3 {
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 190px;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 190px;
     bottom: 300px;
 }
 
 /*MIDDLE-CONTAINER*/
 .middle-container {
-    padding: 100px;
-    position: relative;
+    margin: 70px 0px; 
 }
 
 .middle-head {
@@ -69,18 +86,13 @@ h3 {
 }
 
 .middle-p {
-    padding: 20px;
-    margin-bottom: 100px;
+    width: 30%;
+    margin: auto; 
 }
 
 #middle-head2 {
-    padding-top: 80px;
     font-weight: bold;
     color: #66BFBF;
-}
-
-.middle-head2 {
-    padding-top: 70px;
 }
 
 /*SKILLS*/
@@ -90,36 +102,44 @@ h3 {
 }
 
 .skill-row {
-    position: absolute;
     width: 50%;
     margin: auto;
-    margin: 100px auto 100px auto; 
+    margin: 50px auto 100px auto; 
     text-align: left;
-    line-height: 2;
 }
 
 .js-image {
-   position: absolute;
    width: 25%;
    float: left;
    padding-right: 30px;
 }
 
-.java-image {
-    position: absolute;
+.java-image { 
     width: 25%;
     float: left;
     padding-left: 30px;
+    padding-top: 35px;
     float: right;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 /*bottom-container*/
 
 .bottom-container {
-    position: relative;
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
-.btn {
-    top: 400px;
+.c-btn {
+    width: 200px;
 }
 
+#copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
