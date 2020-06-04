@@ -24,3 +24,12 @@ https://www.bestcssbuttongenerator.com/#/12
 
 Emojipedia: contain paradigms of emojis across different OS
 https://emojipedia.org/
+
+Dribble: Webdesigners portfolios. Inspirational, can narrow down searches based on color
+https://dribbble.com/
+
+Codeply: Like codepen but allows frameworks like bootstrap 
+https://www.codeply.com/p
+
+bootstrap: website with useful documentation
+https://getbootstrap.com/

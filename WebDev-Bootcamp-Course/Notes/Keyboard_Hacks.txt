@@ -4,3 +4,5 @@ Horisontal scrolling with keyboard: shift + scroll
 
 Pasting in Git Bash: Shift + insert
 
+Page Scaling: Ctrl + scroll
+
