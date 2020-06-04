@@ -4,6 +4,9 @@ https://colorhunt.co/
 Unicode Table: symbols, fancy letters, emojis, you name it 
 https://unicode-table.com/en/
 
+Font Awensome: Have all the icons that are free for commercial use NEEDS TO BE LINKED TO
+https://fontawesome.com/icons?d=gallery
+
 Favicon: create my own favicons 
 https://www.favicon.cc/
 
