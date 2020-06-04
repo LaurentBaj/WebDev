@@ -25,6 +25,22 @@ Line-height
 
 Browser-defaults
 	-Sometimes an element may be treated with a fixed property even when they are not specified by the programmer
-	-To fix this you have to zero out that property
+	-To fix this you have to zero out that property which disturbes the intended usage 
+
+Positioning
+	-Moving an element can push other elements if it crosses onto their space
+		-Using the 'relative' position allows it to float above any element that it might be crossing without affecting their position on the page 
+		-Horisontal centering: 	maring: 0 auto 0 auto;   Top and bottom are zero while right and left are what they need to be in order to be centered 
+	-Absolute positioning means that the objects position is relative to it's parent element and not the body (the body could also be it's parent)
+
+Margin values
+	-One = all sides
+	-two = top and bottom, left and right
+	-three = top, left and right, bottom
+	-four = clockwise
+
+Horisontal Centering using margin
+	-If given four values then the order of values go clock-wise: top - right - bottom - left
+
 
 "If you find yourself repeating code then you are doing it wrong" - Angela ❤

@@ -19,8 +19,6 @@ hr {
     margin: 100px auto;
 }
 
-
-/*TOP-CONTAINER*/
 h1 {
     color: #66BFBF;
     font-size: 5.625rem;
@@ -56,6 +54,8 @@ a:hover {
     color: #EAF6F6;
 }
 
+
+/*TOP-CONTAINER*/
 
 .top-container {
     padding-top: 100px;

@@ -21,3 +21,6 @@ https://giphy.com/
 
 CSS Button Generator: Insted of hard coding a button, I can use this
 https://www.bestcssbuttongenerator.com/#/12
+
+Emojipedia: contain paradigms of emojis across different OS
+https://emojipedia.org/

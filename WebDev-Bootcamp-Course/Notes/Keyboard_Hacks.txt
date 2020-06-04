@@ -1,0 +1,6 @@
+Access Emojis: windows + . 
+
+Horisontal scrolling with keyboard: shift + scroll
+
+Pasting in Git Bash: Shift + insert
+
