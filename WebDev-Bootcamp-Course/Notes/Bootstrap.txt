@@ -44,3 +44,10 @@ Workflow of webdesign
         Optional
     4) Mockup
     5) Prototype  
+
+
+Rows and column classes
+  -Columns have to be inside rows
+
+Container class: Creates a class with a styled background (needs content and color). Scales itself. 
+Container-fluid class = same like container but scales smoothly  

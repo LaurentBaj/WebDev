@@ -42,5 +42,15 @@ Margin values
 Horisontal Centering using margin
 	-If given four values then the order of values go clock-wise: top - right - bottom - left
 
+Z-index
+	-Only work when position is not static (following)
+	-It needs to be positioned (relative, static, fixed aso)
+	-Elements without a z-index will always appear on top
+		-html order matters: if two elements, the first one is on top and will appear in the background of the second element
+
+Media Query
+	- @media (condition) {
+		normal css code
+	}
 
 "If you find yourself repeating code then you are doing it wrong" - Angela ❤
