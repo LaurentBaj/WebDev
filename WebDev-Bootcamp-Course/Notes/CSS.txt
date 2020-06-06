@@ -4,6 +4,7 @@
 Difference between Id and class 
 	-You can have many objects with the same class value and is very useful if you plan to alter all of them at once 
 	-ID are unique and you can only have one of them
+	-Using IDs sparingly is useful because it can be refer to from the navbar
 
 The Box model
 	-Elements on a webpage have padding, border and margins that sorrounds them. These are powerful properties and they affect other elements that border to it
@@ -52,5 +53,17 @@ Media Query
 	- @media (condition) {
 		normal css code
 	}
+
+Hierarchical Selectors
+	-right to left (space between, no comma)
+
+Combined Selectors
+	-left to right (no space or comma)
+
+Selector Priority
+	1) HTML - internal (<h1 id="t" class = "t" style = "background-color: red">) 
+	2) external - ID (#t)
+	3) external - Class (.t)
+	4) external - html (h1, p)
 
 "If you find yourself repeating code then you are doing it wrong" - Angela ❤
