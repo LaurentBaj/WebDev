@@ -1,0 +1,49 @@
+It takes three seconds for a user to judge a webpage's design 
+
+
+
+COLOUR THEORY	
+	-Different colours convey different messages 
+		-Red: love, energy, intensity
+		-Yellow: Attention grabbing - works great for a short period but can be distracting and annoying after a while 
+		-Green: Freshness, growth, safety 
+		-Blue: Stability, trust, serenity
+		-Purple: Royalty, wealth, femininity 
+	
+	Analogous Colours
+		-When choosing colours for a website, going for two colours that almost look the same on the colour pallet is a wise choice 	
+			-Works well together - looks harmonious
+				-Nav-bar, body, logo and it's background 
+
+	Complementary colours
+		-Choosing two colors that are (in some way) the opposite of each other
+			-Works well when you want something to stand out
+				ex- Red meat isle using green dividers between each product. Makes the red meat stand out (makes it look even more red) 
+	
+TYPOGRAPHY
+	Two main categories 
+		-Serif
+		-Sans Serif
+	
+	Stick to two fonts
+		-good conventions 
+		-Find fonts that have similiar moods and belong to the same time era
+		-Contrast serif and sans. If heading is sans, then body should be serif 
+
+GOOD UI
+	Most important elements are the biggest
+	Interesting Layout
+	Text-alignment
+		-reduse alignment points 
+	Keep space between elements 
+	Design for your audience  
+
+GOOD UX
+	Is meant to be invisible, not intrusive 
+	
+	1) Simplicity 
+	2) Consistency: design and functionality 
+	3) Reading Pattern - F-layout
+	4) Platform Desing 
+	5) Test test test!
+

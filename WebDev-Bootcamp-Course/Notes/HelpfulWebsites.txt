@@ -36,3 +36,12 @@ https://www.codeply.com/p
 
 bootstrap: website with useful documentation
 https://getbootstrap.com/
+
+Daily UI: creates small challenges that are educational 
+https://www.dailyui.co/
+
+Collect UI: Design challenges
+https://collectui.com/
+
+Canva: Online graphics editing program
+https://www.canva.com/en_gb/
