@@ -1,0 +1,5 @@
+Sclicing a string 
+    - var name = "Laurent";
+    - var slicedName = name.slice(2-6); 
+    -slicedName = "auren";   
+

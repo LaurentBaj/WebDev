@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello</h1>
+
+    <script>
+
+        question();
+
+        function question() {
+            let m = prompt("How old are you?"); 
+            age(m); 
+        }
+    
+
+        function age(age){
+            let remaining = 90 - age; 
+            let months = (remaining * 12); 
+            let weeks = (remaining * 52); 
+            let days = (remaining * 365); 
+            alert("You have " + days + " days, " + weeks + " weeks and " + months + " months left"); 
+        }
+
+        function weeks(){
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
