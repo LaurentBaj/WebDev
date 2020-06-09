@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById("output");
+        const fibonacciContainer = [0, 1]; 
+
+        function fibonacciGenerator(n) { 
+            for(let i = 1; i < n; i++) {
+            let newNum = fibonacciContainer[i] + fibonacciContainer[i - 1]
+            fibonacciContainer.push(newNum);
+            }
+
+            for(let i = 0; i < n; i++) {
+            output.innerHTML += `${fibonacciContainer[i]} `;  
+            }
+        }
+
+        fibonacciGenerator(20);
+
+        
+
+    </script>
+
+
+    
+</body>
+</html>
