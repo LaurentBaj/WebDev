@@ -9,14 +9,31 @@
     
 <script>
 
-    let myBMI = bmiCalc(1.79, 81); 
+    let myBMI = bmiCalc(1.79, 90); 
 
     function bmiCalc(height, weight){
         let bmi = weight/(height * height);
         return bmi; 
     }
 
-    alert(myBMI); 
+
+    result(); 
+
+    function result() {
+        if(myBMI < 18.5){
+            alert("You are underweight");
+        }
+
+        else if (myBMI > 18.5 && myBMI < 24.9){
+            alert("You have normal weight"); 
+        }
+
+        else {
+            alert("You are overweight"); 
+        }
+    }
+
+
 
 </script>
 

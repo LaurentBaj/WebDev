@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+
+        let isLeap = false; 
+
+        let year = checkIfLeap(2020);
+
+
+        function checkIfLeap(a) {
+            if(a % 4 === 0) {
+                if(a % 100 === 0) {
+                    if(a % 400 === 0) {
+                        return "Leap year"; 
+                    } else {
+                        return "Not leap year"; 
+                    }
+                } else {
+                    return "Leap year"
+                }
+            } else {
+                return "Not a leap year"; 
+            } 
+        }
+
+    </script>
+
+    
+</body>
+</html>
