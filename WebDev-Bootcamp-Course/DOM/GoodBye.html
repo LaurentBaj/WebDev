@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title" class="tit">Good Bye</h1>
+    
+    <input type="checkbox">
+    <button class="btn">Click Me</button>
+    <ul id="list">
+        <li class="item"><a class="attribute" href="https://www.google.com/">google</a></li>
+        <li class="item">Second</li>
+        <li class="item">Third</li>
+    </ul>
+
+        <script>
+        // Changing the header
+        let head = document.firstElementChild.lastElementChild.firstElementChild;
+        head.innerHTML = "Good Bye"; 
+        head.style.color = "red"; 
+        // by id and class
+        document.getElementById("#title").innerHTML = "Good"; 
+        document.getElementById(".tit").innerHTML = "Fish"; 
+
+        // Changing the status of the checkbox 
+        document.querySelector("input").click(); 
+
+        // Changing the value in the last list-item
+        let thirdLi = document.firstElementChild.lastElementChild.lastElementChild.lastElementChild; 
+        thirdLi.innerHTML = "Fish"; 
+
+        // Changing all the colors in <li>s 
+        document.getElementsByTagName("li")[2].style.color = "blue"; 
+
+        // Using hierarchical Selectors to get the link
+        document.querySelector("li a");  
+        document.querySelector(li.item)
+
+        // Selecting more than one element
+        document.querySelectorAll("#list .item"); 
+
+        //Changing the color of button
+        document.querySelector("button").style.backgroundColor = "yellow"; 
+
+        // Getting and changing an attribute 
+        document.querySelector("a").attributes; 
+        document.querySelector("a").setAttributes("href", "facebook.com"); 
+        document.querySelector("a").getAttributes("href"); // gives us the link to google 
+        </script>    
+</body>
+</html>

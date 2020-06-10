@@ -1,0 +1,43 @@
+DOCUMENT OBJECT MODEL - Catalouges the webpage into elements 
+
+QuerySelector 
+	- Selects a specific element and allows us to alter it 
+	- Can get an element by it's dom name (h1), id ("title") or class
+
+QuerySelectorAll
+	- Can select more than one item and stores it inside an array 
+
+Each DOM-Element has properties and methods. Like objects in Java, you can change the content of an object by using setters, and get them by using getters 
+	- Properties (innerHTML, style, firstChild)
+	- Methods (click(), appendChild(), setAttribute()) 
+
+A method is a fuction that is associated with an object 
+
+document.getElementsById
+	- Methods that are supposed to get plural values always creates arrays
+	- If we want to alter them we have to grab them by their index-names (even if there is only one value in the array)
+
+
+Styling in JS
+	-Follows the almost the same syntax as css
+	-Changing font family in css: font-familiy: "Monsterat"; 
+	-Changing font family in js: object.style.fontFamily = "Monsterrat";
+
+ClassList 
+	- Object.clasList: gives us the class values inside that element	
+	- classlist.add("something") adds a class value to the object even if it already has a class 
+		-Before: <button class = "btn">, After: <button class = "btn something">
+	- classList.remove("something"): removes a particular class value
+	- classList.toggle("something"): works like a on and off switch. Removes/adds values. 
+
+
+Write html-code inside js
+        -document.querySelector("button").style.backgroundColor = "<b>yellow</b>"; 
+
+Getting html attributes 	
+	-document.querySelector("a").attributes; 
+		- gives us a list of the attributes which in this case of the code is "href" and "class". It also specifies the length which is two; 
+	- Getting the value of a attribute:
+		-document.querySelector("a").getAttribute("href") - in this case it gives the path to google.com
+	- Setting attributes: changes the value inside the attributes
+		-document.querySelector("a").setAttribute("href", "facebook.com"); 
