@@ -12,25 +12,19 @@
     <script>
         const output = document.getElementById("output");
         const fibonacciContainer = [0, 1]; 
-
+        
         function fibonacciGenerator(n) { 
-            for(let i = 1; i < n; i++) {
-            let newNum = fibonacciContainer[i] + fibonacciContainer[i - 1]
-            fibonacciContainer.push(newNum);
+            
+            for(let i = 1; i < (n + 1); i++) {
+                    let newNum = fibonacciContainer[i] + fibonacciContainer[i - 1]
+                    fibonacciContainer.push(newNum);
+                    output.innerHTML += `${fibonacciContainer[i - 1]} `;  
             }
 
-            for(let i = 0; i < n; i++) {
-            output.innerHTML += `${fibonacciContainer[i]} `;  
-            }
         }
 
-        fibonacciGenerator(20);
-
-        
-
+        fibonacciGenerator(10);
     </script>
 
-
-    
 </body>
 </html>
