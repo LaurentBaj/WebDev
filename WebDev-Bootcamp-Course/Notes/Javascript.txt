@@ -1,5 +1,26 @@
+NEW STUFF I LEARNED ABOUT JS
+
 Sclicing a string 
     - var name = "Laurent";
     - var slicedName = name.slice(2-6); 
     -slicedName = "auren";   
+
+Event listener
+    variable/array.addEventListener("click", functionName); 
+    - same as the .onclick method but require parameters
+    - the parameters inside are: 1) Type("click") 2) anonymous function or called function
+    - if am passing a function as a parameter it is important that it does not have parenthesis 
+        -this is because it will execute upon runtime and not on an event such as a button 
+
+
+High Order Functions
+    -Parameterized function that can pass other funtions
+
+Callback Functions
+    - 
+
+Debugger
+    - The Inspector on a web page has a debugger functionality 
+    - It goes through each line and describes its role
+
 

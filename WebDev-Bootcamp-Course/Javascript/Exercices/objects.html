@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        function HouseKeeper(yearsOfExp, name, cleaningRep) {
+            this.yearsOfExp = yearsOfExp; 
+            this.name = name; 
+            this.cleaningRep = cleaningRep;  
+            this.clean = function() {
+                alert("Cleaning in progress");
+            }
+        }
+
+        const h1 = new HouseKeeper(12, "Abigail Spencer", "Bedroom"); 
+        console.log(h1);
+
+        const h2 = new HouseKeeper(2, "Matt Stone", "Lounge"); 
+        h2.clean();
+        
+    </script>
+    
+</body>
+</html>
