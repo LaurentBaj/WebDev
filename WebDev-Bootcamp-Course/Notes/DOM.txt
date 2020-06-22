@@ -41,3 +41,4 @@ Getting html attributes
 		-document.querySelector("a").getAttribute("href") - in this case it gives the path to google.com
 	- Setting attributes: changes the value inside the attributes
 		-document.querySelector("a").setAttribute("href", "facebook.com"); 
+

@@ -1,0 +1,33 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+jQuery is a library for js and was made to make the language more effective 
+
+document.querySelector("h1") === jQuery("h1") === $("h1"); 
+
+In order to implement jQuery you have to use fetch the cdn: 
+It is important that it is above the other js links 
+
+The dollar sign is both querySelector and querySelectorAll
+
+jQuery and DOM 
+    $("h1").addClass("className"); 
+    $("h1").removeClass("className");
+    $("h1").hasClass("className"); - Returns a boolean value 
+    
+    If i console log the .attr("class") of a DOM-element it gets the values inside the class of h1  
+    $("a").attr("src") - Adds a html attribute
+    $("a").attr("src", "https://www.youtube.com/") - Adds a html attribute + value inside it
+
+
+$("h1").text("Some text") - Changes/adds everything inside the parenthesis, ignores html  
+$("h1").text("<b>Some text"</b>) - Same as .text but better because I can add html code  
+
+
+Click 
+    - The click listener does not need a loop to run through an array 
+
+Adding DOM-elements 
+    $("h1").before("button") - adds the button before the h1 
+    $("h1").after("button") - adds the button after the h1
+    $("h1").prepend("button") - adds the button before and inside the h1  
+    $("h1").append("button") - adds the button after and inside the h1  

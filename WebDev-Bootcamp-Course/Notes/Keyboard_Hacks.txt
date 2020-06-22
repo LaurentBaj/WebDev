@@ -6,3 +6,4 @@ Pasting in Git Bash: Shift + insert
 
 Page Scaling: Ctrl + scroll
 
+Remove/add file explorer on the left(vsc): Ctrl + B; 

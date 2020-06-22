@@ -48,3 +48,9 @@ https://www.canva.com/en_gb/
 
 Ideal Code Style
 https://github.com/rwaldron/idiomatic.js
+
+Minify: compresses js or css code and removes comments in order to take less space and to load faster
+https://www.minifier.org/
+
+jQuery: website with useful info about it 
+https://jquery.com/
