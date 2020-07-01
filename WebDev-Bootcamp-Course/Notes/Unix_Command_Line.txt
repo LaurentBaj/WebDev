@@ -1,0 +1,24 @@
+NEW STUFF I LEARNED ABOUT COMMAND LINE INTERFACES
+
+
+Hyper is a command-line interface built on HTML and CSS
+Needs git bash. I also changed the configuration. 
+
+Basic commands are like bash: 
+	- cd 
+	- cd .. 
+	cd ~: removes entire file-path and takes you back to step one  
+	- touch text1.txt
+	- rm text1.txt 
+	- rm * - removes everything 
+	- Remove a directory: rm -r Laurent/
+
+While writing: 	
+	- Ctrl A - skip to beginning if line 
+	- Ctrl E - skip to where the line ends 
+	- Ctrl U - Delete the whole line 
+
+Start file/program - start wordpad 
+
+
+

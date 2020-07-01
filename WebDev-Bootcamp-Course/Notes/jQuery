@@ -20,7 +20,7 @@ jQuery and DOM
 
 
 $("h1").text("Some text") - Changes/adds everything inside the parenthesis, ignores html  
-$("h1").text("<b>Some text"</b>) - Same as .text but better because I can add html code  
+$("h1").html("<b>Some text"</b>) - Same as .text but better because I can add html code  
 
 
 Click 
