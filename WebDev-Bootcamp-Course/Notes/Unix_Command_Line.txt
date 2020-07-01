@@ -19,6 +19,8 @@ While writing:
 	- Ctrl U - Delete the whole line 
 
 Start file/program - start wordpad 
+		- start wordpad index.html 
+
 
 
 
