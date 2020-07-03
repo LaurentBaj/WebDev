@@ -28,7 +28,9 @@ NPM - NODE PACKAGE MANAGER
 				EXPRESS - A NODE FRAMEWORK 
 
 Express - Makes node much more effective and a lot of back-end devs rely upon it 
-
+Express needs to be installed for each project after the npm is installed
+	- npm init 
+	- npm install express 
 
 
 After express is depended to my project I have to require it: 
@@ -50,3 +52,13 @@ After express is depended to my project I have to require it:
 	app.listen(3000, function() {
     	console.log("Server started on port 3000");
 	}); 
+
+
+__dirname - the entire filepath
+
+The get-method can also pass files
+	app.get("/", function(request, response) {
+    	response.send("index.html");
+		// response.set(__dirname + "/index.html");  
+	});
+
