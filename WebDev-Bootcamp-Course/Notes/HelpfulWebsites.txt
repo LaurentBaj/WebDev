@@ -54,3 +54,6 @@ https://www.minifier.org/
 
 jQuery: website with useful info about it 
 https://jquery.com/
+
+Postman: Tests APIs
+https://www.postman.com/ 

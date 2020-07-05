@@ -1,10 +1,11 @@
 const express = require("express");
 const bodyParser = require("body-parser");  
-const app = express(); 
+const app = express(); // Refers to the express method;
 
 // the body parser npm requres the values inside the curly braces
 app.use(bodyParser.urlencoded({extended: true})); 
 
+// .get requests data from a source 
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/index.html"); 
 }); 
@@ -13,6 +14,7 @@ app.get("/bmicalculator", function(req, res) {
     res.sendFile(__dirname + "/bmiCalculator.html"); 
 });
 
+// post-method loads data from the server 
 app.post("/bmicalculator", function(req,res) {
     const height = parseFloat(req.body.height);
     const weight = parseFloat(req.body.weight);

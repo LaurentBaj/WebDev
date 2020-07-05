@@ -1,0 +1,12 @@
+An Application Programming Interface (API) is a set
+of commands, functions, protocols, and objects that programmers 
+can use to create software or interact with an external system 
+    - Examples: weather, shared friends(tinder's facebook API)  
+
+ENDPOINT - Contains the URL of a server. Browsers use a GET-request to traverse to a domain. 
+
+PATH - A server might have different pages/routes. An endpoint can have variations: facebook/home || facebook/friends
+
+PARAMETERS - Allows me to narrow my querries. At the end of the endpoint. Comes after a question mark and have one ampersand between them. 
+Tinder does not gives heterosexual men options to match with other men since the queries narrow it down to women. 
+It can also take age in to consideration. So the query contains two parameters: gender and age   
