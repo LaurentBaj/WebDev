@@ -10,3 +10,9 @@ PATH - A server might have different pages/routes. An endpoint can have variatio
 PARAMETERS - Allows me to narrow my querries. At the end of the endpoint. Comes after a question mark and have one ampersand between them. 
 Tinder does not gives heterosexual men options to match with other men since the queries narrow it down to women. 
 It can also take age in to consideration. So the query contains two parameters: gender and age   
+
+.statusCode: like 404, is the error/non-error messages 
+
+Server Data: Often comes in hex-code. To utilize it I have to convert it into js-codeby using JSON. 
+
+JSON - JavaScript Object Notation - Can turn different data into js-format and compress it. APIs provides different formats as well like xml or html
