@@ -1,0 +1,32 @@
+REPETITION ON GIT AND GITHUB
+
+
+Three stages: 
+
+	- Working Dir: The actual files that are being worked on 
+	- Staging Area: Sometimes it is not necessary to commit all files and the staging area allows us to be more specific about what we want to commit. 
+	- Local Repo: The version of the files are stored in the .git repo (which is hidden unless: ls -a) and we can always checkout back to it (rollback). 
+
+
+Files that are not added are known as untracked files and appear red when writing "git status" in terminal. 
+Files that are tracked are added to the staging area where they can be commited. These appear in red when writing "git status" in terminal.
+
+Rollback - Means to revert to the last version 
+git checkout fileName: performs a rollback if the changes are not staged 
+
+git rm --cached -r .     - Removes all tracked files from the staging area rendering them untracked
+
+
+GITIGNORE
+A "hidden" folder (not hidden from terminal) where I can store files about the project that contain classified data.
+Each file must have it's on line of space in the document. 
+When files are added then we can see that all the files + .gitignore are ready to be commited exept from those that are written inside the .gitignore
+Rules: 
+	-#Comment
+	-*.txt - all the files which have the .txt extension will be ignored
+
+
+
+
+
+ 
