@@ -26,6 +26,12 @@ Rules:
 	-*.txt - all the files which have the .txt extension will be ignored
 
 
+FORKING 
+When cloning a repo it get's added to my work enviroment. But I can also fork it, which means that I copy the the remote on my own github account (duplicate it).
+If I fork someone else's repo I can then clone it to my work enviroment, make my own version of it and then create a pull-request to the author. 
+The author can then review my version of the code and chose if they wish to merge it by pull-request. 
+Forking is great because I can have multiple contributors on a project. By clicking on "Network" it provides with a neat graph of all commits from different branches and from other's whom have forked the repo
+
 
 
 

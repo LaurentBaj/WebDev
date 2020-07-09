@@ -1,0 +1,18 @@
+EJS - EMBEDDED JAVASCRIPT TEMPLATING 
+
+To use EJS: app.set("view engine", "ejs"); 
+
+Express will always search for a folder called view and a file inside it called index.ejs
+The index.ejs file inside view exists paralell to the index.html file on the work folder 
+The index.ejs has the same contents inside it as the html exept from the ejs template markers 
+
+EJS Template Marker(inside index.ejs): <h1> Today is <%= variableName  %>   </h1>
+	In JS:     res.render("list", {variableName: today}); 
+
+index.ejx does also allow js code as long as each line (of js code) is sorrounded by <% %>
+
+	 <% if(kindOfDay === "Saturday" || kindOfDay === "Sunday") { %>
+        	<h1 style="color: rebeccapurple;"><%= kindOfDay %>!</h1>
+    	<% } else { %>
+        	<h1 style="color: blue"><%= kindOfDay %>!</h1>
+    	<% } %>

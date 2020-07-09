@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+</head>
+<body>
+
+    <h1> <%= kindOfDay %> </h1>
+
+    <ul>
+        <li>But food</li>
+        <li>Cook Food</li>
+        <li>Eat Food</li>
+        <li> <%= newListItem %> </li>
+    </ul>
+
+    <form action="/" method="POST">
+        <input type="text" name="newItem">
+        <button type="submit" name="button">Add</button>
+    </form>
+    
+    
+    <!-- 
+    <% if(kindOfDay === "Saturday" || kindOfDay === "Sunday") { %>
+        <h1 style="color: rebeccapurple;"><%= kindOfDay %>!</h1>
+    <% } else { %>
+        <h1 style="color: blue"><%= kindOfDay %>!</h1>
+    <% } %>
+    -->
+    
+</body>
+</html>
