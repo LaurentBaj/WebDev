@@ -1,57 +1,57 @@
-Node is a runtime enviroment that allows us to:  
+Node is a runtime enviroment that allows us to:
 	- write js-code that goes beyond a users browser and interact with their file systems.
  	- create desktop apps
-	- Sniff network traffic 
-	- Access and alter databases 
+	- Sniff network traffic
+	- Access and alter databases
 
 We can run files on node (say we have a folder with a single file called index.js)
 	- navigating to the folder and writing: node index.js - executes the code in index.js and the results apper in the terminal
 
 REPL -  REPL stands for Read Eval Print Loop and it represents a computer environment like a Windows console or Unix/Linux shell
-	where a command is entered and the system responds with an output in an interactive mode 
-	- In repl i can execute arthitmetic operations and other js code 
-	- to exit REPL: Ctrl + C twice || .exit 
+	where a command is entered and the system responds with an output in an interactive mode
+	- In repl i can execute arthitmetic operations and other js code
+	- to exit REPL: Ctrl + C twice || .exit
 
 Filesystem
-	- const fs = require("fs"); - reaches the file system 
+	- const fs = require("fs"); - reaches the file system
 	- fs.copyFileSync("file1.txt", "file2.txt"); Then run the file in hyper: node index.js
-		- Creates a new txt called file2.txt(suppose file1.txt already was there) and copies its content  
+		- Creates a new txt called file2.txt(suppose file1.txt already was there) and copies its content
 
 NPM - NODE PACKAGE MANAGER
 	- Packages on NPM are bits of reusable code that can ble implemented to my own project which saves time
-	- Packages are often built on other packages 
-	- To initialize a npm: npm init 
-		- Follow the steps afterwards  
+	- Packages are often built on other packages
+	- To initialize a npm: npm init
+		- Follow the steps afterwards
 
 
-			
-				EXPRESS - A NODE FRAMEWORK 
 
-Express - Makes node much more effective and a lot of back-end devs rely upon it 
+				EXPRESS - A NODE FRAMEWORK
+
+Express - Makes node much more effective and a lot of back-end devs rely upon it
 Express needs to be installed for each project after the npm is installed
-	- npm init 
-	- npm install express 
+	- npm init
+	- npm install express
 
 
-After express is depended to my project I have to require it: 
-	
-	const express = require("express"); 
+After express is depended to my project I have to require it:
+
+	const express = require("express");
 	const app = express();
-	
-	Then I can create channels, allowing me to make a website 
+
+	Then I can create channels, allowing me to make a website
 
 	app.get("/", function(request, response) {
-    	response.send("<h1>Hello!</h1>"); 
+    	response.send("<h1>Hello!</h1>");
 	});
 
 	app.get("/contact", function(req, res) {
-    	res.send("Laurent_baj@hotmail.com");     
+    	res.send("Laurent_baj@hotmail.com");
 	});
 
 	// Chosing port on html
 	app.listen(3000, function() {
     	console.log("Server started on port 3000");
-	}); 
+	});
 
 
 __dirname - the entire filepath
@@ -59,6 +59,11 @@ __dirname - the entire filepath
 The get-method can also pass files
 	app.get("/", function(request, response) {
     	response.send("index.html");
-		// response.set(__dirname + "/index.html");  
+		// response.set(__dirname + "/index.html");
 	});
 
+
+
+NODEMON - Launches a server on my laptop that automatically updated upon changes in code
+
+rs: Clears the content in the session 
