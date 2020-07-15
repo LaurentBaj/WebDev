@@ -1,0 +1,106 @@
+REPETITION ON DATABASES 
+
+
+TWO MAIN TYPES
+
+SQL - STRUCTURED QUERY LANGUAGE: MySQL, PostgreSQL
+NoSQL - NOT ONLY STRUCTURED QUERY LANGUAGE: mongoDB, redis
+
+SQL: Most Common. Inflexible: Fills empty tables with NULL (which is problematic). FAST. - RELATIONAL
+NoSQL: Structured in JSON-Objects. Flexible. -NON-RELATIONAL
+
+
+
+
+
+WHICH ONE SHOULD I USE? 
+
+	- Complex Relationships: SQL 
+	- Single users generating lots of (the same type of) content: NoSQL
+	- Scalability: NoSQL
+
+MAINFRAMES - What I thought was supercomputers. Used for large enterprise storage.
+
+MongoDB - Organizes data into smaller docs of data. Allows for my data to be stored onto different computers. Scalable. 
+
+
+
+
+PROS AND CONS 
+
+
+MySQL: More mature, table structure, requires a schema (before building it), faster with relationships, scales vertically(costly)
+
+MongoDB: Shiny and New, document structure, flexible to change, slower with relationships, scales horisontaly(less expensive)
+
+
+
+
+
+
+- S Q L - 
+
+CRUD - CREATE - READ - UPDATE - DESTROY
+
+1) CREATE
+
+CREATE TABLE - Create Table tableName (
+				id INT,
+				name STRING, 
+				price MONEY,
+				PRIMARY KEY (id)
+				); 
+
+
+
+INSERT ROWS -  INSERT INTO tableName (column1)
+	       VALUES (1, "Pen", 1.2); 
+
+
+2) READ 
+
+Show everything in tableName: SELECT ** FROM 'tableName'; 
+Reading one row: SELECT * tableName FROM WHERE id=1
+
+
+3) UPDATE 
+
+Change values: UPDATE tableName
+	       SET price = 0.8
+	       WHERE id=2; 
+
+
+Adding columns:  ALTER TABLE tableName 
+	         ADD stock INT // A new column is created but the values are NULL 
+
+
+		// Adding values to the new columns (32, 12)
+		UPDATE tableName
+		SET stock = 32
+		WHERE id=1
+
+		UPDATE tableName
+		SET stock = 12 
+		WHERE id=2 
+
+
+4) DEStROY 
+
+Delete second row:  DELETE FROM tableName
+		    WHERE id=2
+
+Adding it back: INSERT INTO tableName
+		VALUES (2, Pencil, 0.8, 12)
+
+
+
+
+ - SQL RELATIONSHIPS, FOREIGN KEYS and INNER JOINS -
+
+Foreign Key: Links tables together. Establish relationship 
+
+JOINS: Read data from different tables. Different kinds of joins. 
+
+	 
+
+

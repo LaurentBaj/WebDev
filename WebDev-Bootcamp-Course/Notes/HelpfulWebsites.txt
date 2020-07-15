@@ -57,3 +57,6 @@ https://jquery.com/
 
 Postman: Tests APIs
 https://www.postman.com/ 
+
+SQLite: Simulate SQL-tables
+https://sqliteonline.com/
