@@ -104,3 +104,15 @@ JOINS: Read data from different tables. Different kinds of joins.
 	 
 
 
+
+
+
+-- MONGO DB -- 
+
+Show DBs: show dbs 
+create new db: use dbName
+Insert data:	db.collection.insertOne()
+
+
+
+
